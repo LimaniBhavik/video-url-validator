@@ -2,7 +2,7 @@
 
 [![Crates.io](https://img.shields.io/crates/v/video-url-validator)](https://crates.io/crates/video-url-validator)
 [![Documentation](https://docs.rs/video-url-validator/badge.svg)](https://docs.rs/video-url-validator)
-[![License](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue)](#license)
+[![License](https://img.shields.io/badge/license-MIT--2.0-blue)](#license)
 
 A Rust crate for validating video URLs from popular platforms.
 
