@@ -1,0 +1,28 @@
+[package]
+name = "video-url-validator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Bhavik <limanibhavik@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "A Rust crate for validating video URLs from popular platforms (YouTube, Facebook, Vimeo, DailyMotion, Wistia)"
+homepage = "https://github.com/LimaniBhavik/video-url-validator"
+repository = "https://github.com/LimaniBhavik/video-url-validator"
+readme = "README.md"
+keywords = ["video", "url", "validation", "youtube", "vimeo"]
+categories = ["web-programming", "parser-implementations"]
+exclude = [
+    "target/*",
+    ".git/*",
+    ".gitignore",
+    "*.tmp"
+]
+
+[dependencies]
+regex = "1.10"
+
+[dev-dependencies]
+# Add test dependencies if needed
+
+[[example]]
+name = "basic_usage"
+path = "examples/basic_usage.rs"
